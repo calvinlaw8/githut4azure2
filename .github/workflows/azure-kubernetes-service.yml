@@ -8,7 +8,7 @@ on:
 env:
   AZURE_CONTAINER_REGISTRY: calvintestaksregistry
   CONTAINER_NAME: your-container-name
-  RESOURCE_GROUP: AKSKPI
+  RESOURCE_GROUP: testaksregistry_group
   CLUSTER_NAME: testaks
   DEPLOYMENT_MANIFEST_PATH: /
 
