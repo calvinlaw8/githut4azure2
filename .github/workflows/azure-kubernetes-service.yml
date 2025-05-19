@@ -26,9 +26,9 @@ jobs:
       - name: Azure login
         uses: azure/login@v1.4.6
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: 852800df-0194-4956-add1-8d42e8adf1e5
+          tenant-id: 112c9ed4-6357-45bb-bbe9-018fdb35e8ee
+          subscription-id: f2d7fc8e-0250-45cb-971c-5a6f976cb204
 
       # 构建镜像并推送到 Azure 容器注册表 (ACR)
       - name: Build and push image to ACR
