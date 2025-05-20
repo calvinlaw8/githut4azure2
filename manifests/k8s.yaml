@@ -13,7 +13,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: cathyfan/jenkins-demo:<BUILD_TAG>
+      - image: calvintestaksregistry.azurecr.io/your-container-name:ad8fd909934bbc16f4d298e161c18f4c660b3ebe
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
