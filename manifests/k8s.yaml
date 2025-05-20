@@ -13,7 +13,7 @@ spec:
         app: jenkins-demo
     spec:
       containers:
-      - image: calvintestaksregistry.azurecr.io/your-container-name:ad8fd909934bbc16f4d298e161c18f4c660b3ebe
+      - image: ${{ env.AZURE_CONTAINER_REGISTRY }}.azurecr.io/${{ env.CONTAINER_NAME }}:${{ github.sha }}
         imagePullPolicy: IfNotPresent
         name: jenkins-demo
         env:
